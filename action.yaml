@@ -1,0 +1,9 @@
+name: "S3 Cleaner"
+description: "Clean up S3 bucket based on age"
+author: dhawton
+runs:
+  using: docker
+  image: Dockerfile
+branding:
+  icon: refresh-cw
+  color: green
